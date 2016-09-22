@@ -1,0 +1,426 @@
+*{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	box-sizing: border-box;
+}
+body{
+	background: #f2f2f2;
+}
+
+/*header*/
+header{
+	background: ;
+	width: 100%;
+	height: auto;
+	padding: 5px 5px 5px 5px;
+
+	/*imagen del header*/
+}
+.imagenCabecera{
+	background: ;
+	margin: auto;
+	margin-top: 5px;
+	width: 95%;
+	height: 100px;
+}
+.imagenCabecera img{
+	width: 100%;
+	height: 100px;
+}
+/*botones de navegacion*/
+nav{
+	width: 100%;
+	background: ;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+nav ul{
+	width: 100%;
+}
+nav ul li{
+	display: inline-block;
+	padding: 5px;
+	margin-left: 5px;
+	background: #b3b3b3;
+	font-size: 17px;
+	text-align: center;
+	color: #001a00;
+	box-shadow: 3px 3px 3px #808080;
+	border-radius: 10px;
+	transition: 300ms;
+	font-weight: bold;
+}
+nav ul li:hover{
+	font-size: 20px;
+}
+
+                   /*Los estilos de las paginas posteriores como galeria o contacto empezaran al finalizar los
+                   estilos del footer y la pagina index*/
+
+
+
+/*Empieza la seccion principal o main del index*/
+
+.main{
+	background: ;
+	width: 65%;
+	height: auto;
+	margin: 10px 0px 10px 5px;
+	float: left;
+	display: inline-block;
+}
+
+/*secciones que contienen imagenes y texto*/
+.seccion1{
+	width: 100%
+	height: auto;
+	background: ;
+}
+.seccion2{
+	width: 100%
+	height: auto;
+	background: ;
+	margin-top: 10px;
+	clear: both;
+}
+
+.imagenMain{
+	float: left;
+	width: 70%;
+	height: auto;
+	margin-right: 10px;
+}
+.imagenMain img{
+	width: 100%;
+	height: auto;
+}
+.main h2{
+	color: #004d00;
+	font-family: Georgia, Serif, Times New Roman;
+}
+.textoMain{
+	
+}
+.textoMain p{
+	/*font-weight: bold;*/
+	font-size: 17px;
+	color: #001a00;
+	line-height: 25px;
+
+}
+
+/*empiezan los estilos del aside*/
+
+.aside{
+	width: 30%;
+	box-sizing: border-box;
+	background: ;
+	padding: 10px;
+	display: inline-block;
+	float: right;
+	margin-right: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.aside div{
+	margin: auto;
+	width: 100%;
+	height: auto;
+}
+.aside h2{
+	color: #808080;
+
+}
+.aside p{
+	line-height: 25px;
+	color: #001a00;
+	font-size: 15px;
+}
+
+
+/*codigo css de los enlaces a las redes sociales*/
+.sociales{
+	width: 8%;
+	z-index: 1000;
+	position: fixed;
+	margin-top: 100px;
+	background: #004080;
+	 box-shadow: 5px 5px 5px #ccd9ff;
+	margin-left: -5%;
+	padding: 0px 30px 0px 10px;
+	clear: both;
+	transition: 500ms;
+	border-radius: 0px 20px 20px 0px;
+	opacity: .8;
+}
+
+
+
+.sociales ul li{
+	margin-top: 10px;
+	list-style: none;
+
+}
+.sociales ul li a img{
+	width: 100%;
+}
+.sociales:hover{
+	margin-left: 0px;
+	opacity: 1;
+	
+}
+
+/*codigo del footer */
+
+footer{
+	margin: 15px 5px 5px 5px;
+	background: #d9d9d9;
+	box-shadow: 5px 5px 8px #808080;
+	clear: both;
+	padding: 16px 10px 10px 10px;
+	margin-bottom: 5px;
+}
+footer h2{
+	text-align: center;
+	color: #808080;
+}
+footer p{
+	color: #001a00;
+	padding: 10px
+}
+
+ /*                 AQUI EMPIEZA EL CSS DE LAS PAGINAS EXTRAS GALERIA CONTACTO ETC...                 */
+
+/* css galeria*/
+.galeria{
+	width: 100%;
+	height: auto;
+	margin: 15px 2px 15px 2px;
+	background:;
+}
+.galeria h3{
+	margin: auto;
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: 10px;
+	text-align: center;
+	color: #808080;
+	text-shadow: 1px 1px 4px #808080;
+}
+.galeria ul{
+	width: 100%;
+}
+.galeria ul li{
+	width: 19%;
+	float: left;
+	list-style: none;
+	margin-left: 5px;
+}
+.galeria ul li a img{
+	width: 100%;
+	display: inline-block;
+	margin-left: 10px;
+	height: 100px;
+}
+.imagenes{
+	width: 100%;
+	height: auto;
+	clear: both;
+}
+.imagenes div{
+	width: 90%;
+	margin: auto;
+	height: auto;
+}
+.imagenes div img{
+	width: 50%;
+	height: auto;
+}
+.imagenes p{
+	margin: 10px 5px 10px 40px;
+	color: #001a00;
+}
+.imagenes form{
+	margin: 10px 5px 10px 40px;
+}
+
+
+.imagenes form .boton{
+	padding: 5px;
+	background: #b3b3b3;
+	font-size: 17px;
+	pointer-events: auto;
+	transition: 300ms;
+	font-weight: bold;
+	text-align: center;
+	color: #001a00;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px #808080;
+}
+.imagenes form .boton:hover{
+	font-size: 20px;
+	cursor: pointer;
+}
+.imagenes h3{
+	margin: 8px 10px 5px 15px;
+	color: #001a00;
+}
+.imagenes .comAnteriores1{
+	background:;
+	width: 40%;
+	margin-top: 10px;
+	margin-left: 59px;
+	border-left: 5px solid #808080;
+	border-top: 1px solid #808080;
+	
+} 
+.imagenes .comAnteriores2{
+	background:;
+	width: 40%;
+	margin-top: 5px;
+	margin-left: 59px;
+	
+} 
+
+/*css contacto*/
+
+.contacto{
+	width: 100%;
+	height: auto;
+	background: #f2f2f2;
+
+}
+.contacto p{
+	margin: 15px 10px 15px 20px;
+	font-size: 20px;
+	color: #001a00;
+}
+.contacto form{
+	margin: 5px 10px 15px 60px;
+
+}
+.contacto form label{
+	margin: 10px 5px 5px 5px;
+
+}
+.contacto form input{
+	margin: 10px 10px 10px 10px;
+}
+.contacto form textarea{
+	margin: 15px 10px 10px 10px;
+}
+.contacto #send{
+	padding: 5px;
+	background: #b3b3b3;
+	font-size: 17px;
+	pointer-events: auto;
+	transition: 300ms;
+	font-weight: bold;
+	color: #001a00;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px #808080;
+}
+.contacto #send:hover{
+	font-size: 20px;
+	cursor: pointer;
+}
+
+/*estilos responsive
+diseño solo para redimensionar las sociales main aside y los enlaces*/
+
+/*media querry ipads*/
+
+@media screen and (max-width: 801px){
+	.main{
+	background: ;
+	width: 100%;
+	
+	}
+	.aside{
+	width: 100%;
+	margin-left: 20px;
+	}
+	
+	.sociales{
+	width: 100%;
+	margin-top: 10px;
+	z-index: auto;
+	position: static;
+	margin-left: 5px;
+	box-shadow: 0px 0px 0px #f2f2f2;
+	background:#f2f2f2 ;
+	padding: 0px 30px 0px 10px;
+	clear: both;
+	transition: 0ms;
+	border-radius: 0px 0px 0px 0px;
+	opacity: 1;
+	}
+
+	.sociales:hover{
+	margin-left: 5px;
+	opacity: 1;
+	
+	}
+	
+	.sociales ul li{
+		margin-top: 10px;
+		list-style: none;
+		display: inline-block;
+		width: 20%;
+		margin-left: 5px;
+	}
+	.sociales ul li a img{
+		width: 65%;
+	}
+	.aside img,p,h2{
+		margin-left: 15px;
+	}
+
+
+	.imagenes p{
+	margin: 10px 5px 10px 10px;
+	color: #001a00;
+	}
+	.imagenes form{
+		margin: 10px 5px 10px 10px;
+	}
+	.imagenes form textarea{
+		width: 100%;
+	}
+	.imagenes h3{
+	margin: 8px 10px 5px 10px;
+	}
+	.imagenes .comAnteriores1{
+		margin-left: 12px;
+		border-left: 5px solid #808080;
+		border-top: 1px solid #808080;
+		
+	} 
+	.imagenes .comAnteriores2{
+		background:;
+		width: 40%;
+		margin-top: 5px;
+		margin-left: 12px;
+		
+	} 
+
+	.contacto p{
+		margin: 15px 10px 15px 15px;
+	}
+	.contacto form{
+		margin: 5px 10px 15px 8px;
+
+	}
+	.contacto form textarea{
+		width: 100%;
+	}
+}
+
+/*media querry celulares*/
+@media screen and (max-width: 650px){
+	nav ul li{
+	/*width: 15%;*/
+	margin-top: 5px;
+	}
+}
